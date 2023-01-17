@@ -16,33 +16,47 @@ object Client extends App{
         val message = sc.nextLine()
         message match {
           case "Quit" => {
-            dout.writeUTF("Quit")
             flag = false
-            din.close()
-            dout.close()
-            s.close()
           }
           case _ => dout.writeUTF(message)
         }
       }
      }) // Write console message to the server
 
+
+
     val readerThread = new Thread ( () =>
     {
       while (flag) {
-        if (din.available() != 0) println(din.readUTF)
+        if (din.available() != 0) {
+          val msg = din.readUTF().trim
+          msg match {
+            case "Quit" => {
+              flag = false
+              System.exit(0)
+            }
+            case _ => println(msg)
+          }
+        }
       }
     }) // Reading from the server
+
+
+
     writerThread.start()
     readerThread.start()
     dout.flush()
-    Thread.sleep(5000)
-//    dout.close()
-//    din.close()
-//    s.close()
+    //Thread.currentThread().interrupt()
+    Runtime.getRuntime.addShutdownHook(new Thread(() => {
+      flag = false
+      dout.writeUTF("Quit")
+      din.close()
+      dout.close()
+      s.close()
+    }))
+
   } catch {
-    case e: Exception =>
-      System.out.println(e)
+    case  e => e.printStackTrace
   }
 }
 

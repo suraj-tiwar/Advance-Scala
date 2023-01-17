@@ -16,9 +16,6 @@ object Client1 extends App{
           case "Quit" => {
             dout.writeUTF("Quit")
             flag = false
-            din.close()
-            dout.close()
-            s.close()
           }
           case _ => dout.writeUTF(message)
         }
@@ -27,18 +24,25 @@ object Client1 extends App{
 
     val readerThread = new Thread(() => {
       while (flag) {
-        if (din.available() != 0) println(din.readUTF)
+        val msg = din.readUTF()
+        msg match {
+          case "Stop" => flag = false
+          case _ => println(msg)
+        }
       }
     }) // Reading from the server
     writerThread.start()
     readerThread.start()
     dout.flush()
-    Thread.sleep(5000)
-    //    dout.close()
-    //    din.close()
-    //    s.close()
+    Runtime.getRuntime.addShutdownHook(new Thread(() => {
+      flag = false
+      dout.writeUTF("Quit")
+      din.close()
+      dout.close()
+      s.close()
+    }))
+    // Thread.sleep(5000)
   } catch {
-    case e: Exception =>
-      System.out.println(e)
+    case e: Exception => println(e)
   }
 }

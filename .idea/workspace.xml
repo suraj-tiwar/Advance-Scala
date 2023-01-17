@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e6de02-aa54-4358-ba27-f8d50956352f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-scala.iml" afterDir="false" />
+    <list default="true" id="a4e6de02-aa54-4358-ba27-f8d50956352f" name="Changes" comment="Added all files">
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro$Person$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro$Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/ImplicitIntro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part4implicits/ImplicitIntro.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client3$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Client.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/Client1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Client1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/Client3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Client3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Server.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +42,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ec449142-720d-4f73-b13e-55bb4f43bb9b" />
+        <option name="url" value="https://github.com/suraj-tiwar/Advance-Scala.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,6 +106,29 @@
       <option name="presentableId" value="Default" />
       <updated>1672642571004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added all files">
+      <created>1673932702961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673932702961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all files" />
   </component>
 </project>
