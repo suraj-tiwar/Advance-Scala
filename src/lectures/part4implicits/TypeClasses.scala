@@ -23,4 +23,10 @@ object TypeClasses extends App {
   object FullEquality extends Equal[User] {
     override def apply(a: User, b: User): Boolean = a.name == b.name && a.email == b.email
   }
+
+  /// part 2
+
+//  object HTMLSerializer {
+//    def serialize[T]
+//  }
 }

@@ -2,8 +2,9 @@ package exercises
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.sys.ShutdownHookThread
 
-object AsynNonBlocking {
+object AsynNonBlocking extends App {
   def blockingFunction(x: Int): Int = {
     Thread.sleep(10000)
     x + 42
@@ -30,5 +31,6 @@ object AsynNonBlocking {
 //  def main(args : Array[String]) : Unit = {
 
 //  }
+
 
 }

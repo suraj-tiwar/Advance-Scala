@@ -1,4 +1,5 @@
 package exercises
+
 import java.io.{DataInputStream, DataOutputStream}
 import java.net.Socket
 import java.util.Scanner
@@ -9,39 +10,43 @@ object Client3 extends App{
     val din = new DataInputStream(s.getInputStream)
     val sc = new Scanner(System.in)
     var flag = true
-    val writerThread = new Thread(() => { // write to server.
+    val writerThread = new Thread(() => {
       while (flag) {
         val message = sc.nextLine()
         message match {
           case "Quit" => {
-           dout.writeUTF("Quit")
             flag = false
           }
           case _ => dout.writeUTF(message)
         }
       }
-    })
+    }) // Write console message to the server
+
     val readerThread = new Thread(() => {
       while (flag) {
-        val msg = din.readUTF()
-        msg match {
-          case "Stop" => flag = false
-          case _ => println(msg)
+        if (din.available() != 0) {
+          val msg = din.readUTF().trim
+          msg match {
+            case "Quit" => {
+              flag = false
+              System.exit(0)
+            }
+            case _ => println(msg)
+          }
         }
       }
     }) // Reading from the server
+
     writerThread.start()
     readerThread.start()
     dout.flush()
-    Thread.sleep(5000)
+
     Runtime.getRuntime.addShutdownHook(new Thread(() => {
       flag = false
       dout.writeUTF("Quit")
-      din.close()
-      dout.close()
-      s.close()
     }))
+
   } catch {
-    case e: Exception => e.printStackTrace
+    case e => println(e)
   }
 }
