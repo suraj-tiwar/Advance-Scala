@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4e6de02-aa54-4358-ba27-f8d50956352f" name="Changes" comment="Added all files">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/AsynNonBlocking$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/AsynNonBlocking$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/AsynNonBlocking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/exercises/AsynNonBlocking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client1$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client3$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Client3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server$ServerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/exercises/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/AsynNonBlocking.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/AsynNonBlocking.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment/Client.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/Client1.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/Client3.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment/Server.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
