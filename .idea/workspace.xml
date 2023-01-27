@@ -6,23 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4e6de02-aa54-4358-ba27-f8d50956352f" name="Changes" comment="Added all files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$ServerClient$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$ServerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$Equal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$FullEquality$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$NameEquality$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment/Client.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment/Server.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part5ts/StructuralTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part5ts/StructuralTypes.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
