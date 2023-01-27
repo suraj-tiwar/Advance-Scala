@@ -6,6 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="a4e6de02-aa54-4358-ba27-f8d50956352f" name="Changes" comment="Added all files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$ServerClient$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server$ServerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$Equal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$FullEquality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$NameEquality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advanced-scala/lectures/part4implicits/TypeClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment/Client.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment/Server.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part4implicits/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,33 +82,20 @@
       <recent name="C:\Users\s.tiwari\IdeaProjects\advanced-scala\src\Assigment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="AsynNonBlocking" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.AsynNonBlocking" />
-      <module name="advanced-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" singleton="false" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
+  <component name="RunManager" selected="Application.TypeMembers">
+    <configuration name="ClientFile" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ClientFile" />
       <module name="advanced-scala" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Client1" />
+    <configuration name="RockingInheritance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part5ts.RockingInheritance" />
       <module name="advanced-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="lectures.part5ts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Assigment.Server" />
+    <configuration name="ServerFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ServerFile" />
+      <module name="advanced-scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeMembers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part5ts.TypeMembers" />
       <module name="advanced-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="lectures.part5ts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AsynNonBlocking" />
-      <item itemvalue="Application.Client1" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.RockingInheritance" />
+      <item itemvalue="Application.TypeMembers" />
+      <item itemvalue="Application.ClientFile" />
+      <item itemvalue="Application.ServerFile" />
       <item itemvalue="Application.Server (1)" />
-      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.TypeMembers" />
+        <item itemvalue="Application.ClientFile" />
+        <item itemvalue="Application.ServerFile" />
+        <item itemvalue="Application.RockingInheritance" />
         <item itemvalue="Application.Server (1)" />
-        <item itemvalue="Application.AsynNonBlocking" />
-        <item itemvalue="Application.Client1" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
